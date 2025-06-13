@@ -1,5 +1,14 @@
+.category h1{
+  text-align: center;
+}
 .category-wrap{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  // display: flex;
+  // flex-direction: column;
+  // gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.learn-mode h2{
+ text-align: center;
 }

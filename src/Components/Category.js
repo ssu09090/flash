@@ -1,7 +1,7 @@
 
 const Category = ({ cardData,onSelected }) => {
   return (
-    <div>
+    <div className="category">
       <h1>학습카테고리</h1>
       <div className="category-wrap">
         {
